@@ -1,4 +1,4 @@
-# Code
+# Diffusion with Reinforcement Learning for Pedestrian Trajectory Prediction
 
 ## Environment
     Python == 3.8.3
