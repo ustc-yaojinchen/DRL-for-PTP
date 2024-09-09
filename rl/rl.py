@@ -90,6 +90,8 @@ class RL():
         ade_all = torch.cat(ade_all)
         fde_all = torch.cat(fde_all)
         dataset = BaseDataset(context_all, future_rel_all, ade_all, fde_all)
+
+        os.makedirs('rl/data', exist_ok=True)
         with open('rl/data/{:}-{:}.pkl'.format(self.config.dataset, mode), 'wb') as f:
             dill.dump(dataset, f)
 
