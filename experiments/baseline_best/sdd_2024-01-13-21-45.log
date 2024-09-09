@@ -1,0 +1,17 @@
+Config:
+{'lr': 0.001, 'data_dir': 'processed_data', 'diffnet': 'TransformerConcatLinear', 'encoder_dim': 256, 'tf_layer': 3, 'epochs': 90, 'batch_size': 256, 'eval_batch_size': 256, 'k_eval': 25, 'seed': 123, 'eval_every': 10, 'eval_at': 70, 'eval_mode': False, 'conf': 'None', 'debug': False, 'preprocess_workers': 0, 'offline_scene_graph': True, 'dynamic_edges': True, 'edge_state_combine_method': 'sum', 'edge_influence_combine_method': 'attention', 'edge_addition_filter': [0.25, 0.5, 0.75, 1.0], 'edge_removal_filter': [1.0, 0.0], 'override_attention_radius': [], 'incl_robot_node': False, 'map_encoding': False, 'augment': True, 'node_freq_mult_train': False, 'node_freq_mult_eval': False, 'scene_freq_mult_train': False, 'scene_freq_mult_eval': False, 'scene_freq_mult_viz': False, 'no_edge_encoding': False, 'device': 'cpu', 'eval_device': 'None', 'exp_name': 'baselineJan13_21_45', 'dataset': 'sdd'}
+
+
+Eval on:
+sdd
+
+
+Best of 20: Epoch 10 ADE: 9.6217044896935 FDE: 17.2231448815572
+Best of 20: Epoch 20 ADE: 9.15867507586314 FDE: 17.611150970915084
+Best of 20: Epoch 30 ADE: 8.716944536828965 FDE: 16.44111869710073
+Best of 20: Epoch 40 ADE: 8.207283006482301 FDE: 15.015575190855243
+Best of 20: Epoch 50 ADE: 8.908492595663951 FDE: 16.54641219525641
+Best of 20: Epoch 60 ADE: 8.562575113500912 FDE: 16.015003553943977
+Best of 20: Epoch 70 ADE: 8.217274530781655 FDE: 14.891772573189094
+Best of 20: Epoch 80 ADE: 7.7969975419102555 FDE: 14.831517776677305
+Best of 20: Epoch 90 ADE: 8.021953546920043 FDE: 14.520267475927382

@@ -1,0 +1,22 @@
+{
+    "device": "cuda:0",
+    "exp_name": "test",
+    "dataset": "hotel",
+    "reward_name": "average_baseline_linear_10_negative_0.1",
+    "reset": "random",
+    "ceof_ref": 1,
+    "optimizer": "Adam",
+
+    "epochs": 300,
+    "worker": 128,
+    "sample": 20,
+    "gamma": 0.95,
+    "update_epoch": 10,
+    "clip_coef": 0.1,
+    "max_gard_norm": 0.5,
+    "num_minibatches": 25,
+    "lr": 5e-6,
+    "seed": 0,
+    "discount_sigma": 1,
+    "discount_ref": 1
+}
