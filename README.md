@@ -21,7 +21,7 @@ The `train/val/test/` splits are the same as those found in [Social GAN]( https:
 ### Step 2: Train MID
  
  ```
- python main.py --dataset [DATASET]
+ python main_mid.py --dataset [DATASET]
  ``` 
  
  Note that ```$DATASET``` should from ["eth", "hotel", "univ", "zara1", "zara2", "sdd"]
