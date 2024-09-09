@@ -37,7 +37,7 @@ def main():
        config = yaml.safe_load(f)
     config = EasyDict(config)
     config.eval_mode = True
-    config.exp_name = 'baseline_best'
+    config.exp_name = 'baseline'
     config.dataset = args.dataset
     config.pre = args.pre
     config.eval_at = args.eval_at
