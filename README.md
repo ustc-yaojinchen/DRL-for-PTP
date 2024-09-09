@@ -36,7 +36,7 @@ python main.py --process_data True --dataset [DATASET] --eval_at [best_epoch]
 ```
 The processed data will be saved in the rl/data folder.
 
-### Step 2: Train Diffusion RL for PTP
+### Step 2: Train DRL for PTP
  
  ```
  python main.py  --dataset [DATASET] --eval_at [best_epoch]
