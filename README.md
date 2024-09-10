@@ -20,23 +20,25 @@ The `train/val/test/` splits are the same as those found in [Social GAN]( https:
  ```
  python main.py --dataset [DATASET]
  ``` 
- Note that ```$DATASET``` should from ["eth", "hotel", "univ", "zara1", "zara2", "sdd"]
+ Note that ```DATASET``` should from ["eth", "hotel", "univ", "zara1", "zara2", "sdd"]
  
-Logs and checkpoints will be automatically saved in experiments/baseline
+Logs and checkpoints will be automatically saved in experiments/baseline.
 
 ## Fine-tune(DRL-for-PTP)
 
 ### Step 1: Prepare Data for RL
 ```
-python main.py --process_data True --dataset [DATASET] --eval_at [best_epoch]
+python main.py --process_data True --dataset [DATASET] --eval_at [BEST_EPOCH]
 ```
+```BEST_EPOCH``` refers to the epoch number where the pre-trained model performed the best.
+
 The processed data will be saved in the rl/data folder.
 
 ### Step 2: Train DRL for PTP
  
  ```
- python main.py  --dataset [DATASET] --eval_at [best_epoch]
+ python main.py  --dataset [DATASET] --eval_at [BEST_EPOCH]
  ``` 
  
-```$best_epoch``` refers to the epoch number where the pre-trained model performed the best.
-Logs and checkpoints will be automatically saved in rl/log
+
+Logs and checkpoints will be automatically saved in rl/log.
