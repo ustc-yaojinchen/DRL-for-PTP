@@ -20,7 +20,7 @@ The `train/val/test/` splits are the same as those found in [Social GAN]( https:
  ```
  python main.py --dataset [DATASET]
  ``` 
- Note that ```DATASET``` should from ["eth", "hotel", "univ", "zara1", "zara2", "sdd"]
+ Note that ```DATASET``` should from ["eth", "hotel", "univ", "zara1", "zara2", "sdd"].
  
 Logs and checkpoints will be automatically saved in experiments/baseline.
 
