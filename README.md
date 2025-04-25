@@ -7,7 +7,7 @@
 
 ## Pre-train
 
-### Step 1: Prepare Data for MID
+### Step 1: Prepare Data
 The preprocessed data splits for the ETH/UCY and SDD are in ```raw_data```. Like MID, we preprocess the data and generate .pkl files for training.
 
 ```
