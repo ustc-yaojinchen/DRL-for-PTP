@@ -18,7 +18,7 @@ The `train/val/test/` splits are the same as those found in [Social GAN]( https:
 
 ### Step 2: Train
  ```
- python main.py --dataset [DATASET]
+ python main_mid.py --dataset [DATASET]
  ``` 
  Note that ```DATASET``` should from ["eth", "hotel", "univ", "zara1", "zara2", "sdd"].
  
@@ -28,7 +28,7 @@ Logs and checkpoints will be automatically saved in experiments/baseline.
 
 ### Step 1: Prepare Data for RL
 ```
-python main_mid.py --process_data True --dataset [DATASET] --eval_at [BEST_EPOCH]
+python main.py --process_data True --dataset [DATASET] --eval_at [BEST_EPOCH]
 ```
 ```BEST_EPOCH``` refers to the epoch number where the pre-trained model performed the best.
 
