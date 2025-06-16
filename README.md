@@ -28,7 +28,7 @@ Logs and checkpoints will be automatically saved in experiments/baseline.
 
 ### Step 1: Prepare Data for RL
 ```
-python main.py --process_data True --dataset [DATASET] --eval_at [BEST_EPOCH]
+python main_mid.py --process_data True --dataset [DATASET] --eval_at [BEST_EPOCH]
 ```
 ```BEST_EPOCH``` refers to the epoch number where the pre-trained model performed the best.
 
